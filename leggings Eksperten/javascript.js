@@ -109,38 +109,3 @@ $(document).ready(function() {
   });
 });
 
-//////// Når documentet åbnes
-
-$(document).ready(function() {
-  jQuery.fx.off = true; /// slå aniation fra
-  $(".popup-brev").hide();
-  $(".newsletter").click(function() {
-    $(".popup-brev").toggle("true");
-    $("#bodyshade").show();
-  });
-});
-
-///// for at være sikker på at den shaderen gemmes
-
-$(document).ready(function() {
-  $("#bodyshade").hide();
-});
-
-////// viser popup og shader og fixer body man ikke kan scrolle og sætter timer til hvornår
-$(document).ready(function() {
-  function loadup() {
-    $("body").css("position", "fixed");
-    $(".popup-brev").show();
-    $("#bodyshade").show();
-  }
-  setTimeout(loadup, 4000);
-});
-
-/// læser op for scroll og fjerner popbrev og shader
-$(document).ready(function() {
-  $("#kryds").click(function() {
-    $(".popup-brev").toggle("true");
-    $("body").css("position", "relative");
-    $("#bodyshade").hide();
-  });
-});
