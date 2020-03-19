@@ -1,0 +1,5 @@
+
+# robots.txt for http://kevinnicholas.eu
+# robots.txt for http://lortebrugser.eu
+User-Agent: *Disallow: Allow: /kevinnicholas.eu
+User-Agent: *Disallow: Allow: /lortebrugser.eu
