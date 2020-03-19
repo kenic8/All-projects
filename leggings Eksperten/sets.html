@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>sets</title>
+
+    <meta
+      name="description"
+      content="Se teknikk og informatinen omkring sets og se video omkring reversables"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/mette-style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="jquery-3.4.1.min.js"></script>
+  </head>
+
+    <!--NAVIGATION BAR-->
+
+    <navigation class="navigation">
+      <div class="logo">
+        <a title="linkhjemsidenleggingsekseksperten" href="index.html"
+          ><img src="images/leggingslogo.png" alt="Leggings-ekspert"
+        /></a>
+      </div>
+
+      <div class="nav-illus">
+        <div class="illustration">
+          <div class="some-pics">
+            <a
+              title="linkfacebookleggingseksperten"
+              href="https://www.facebook.com/leggings.eksperten"
+            >
+              <img src="images/icons-leggings-FB.png" alt="facebook-page" />
+            </a>
+          </div>
+
+          <div class="some-pics">
+            <a
+              title="linkinstagramlegginsgeksperten"
+              href="https://www.instagram.com/leggingseksperten/?hl=da"
+            >
+              <img src="images/icons-leggings-insta.png" alt="instagram-page" />
+            </a>
+          </div>
+
+          <div class="some-pics1">
+            <a
+              title="linksshopleggingseksperten"
+              href="https://leggingseksperten.dk/cart"
+            >
+              <img
+                src="/images/icons-leggings-indkøbskurv.png"
+                alt="shop-kurv-indkøb"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar">
+          <a
+            title="linkshopleggingseksperten"
+            href="https://leggingseksperten.dk/cart"
+            >Shop</a
+          >
+          <a title="linkprodukterleggingseksperten" href="index.html#produkter"
+            >Produkter</a
+          >
+          <a title="linkeventsleggingseksperten" href="Event.html">Events</a>
+          <a title="linkomosleggingseksperten" href="omos.html">Om os</a>
+        </div>
+
+        <div class="burger-wrapper">
+          <div id="nav-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="menu-burger">
+            <ul>
+              <a href="https://leggingseksperten.dk/cart"><li>Shop</li></a>
+              <a href="index.html#produkter"><li>Produkter</li></a>
+              <a href="Event.html"><li>Events</li></a>
+              <a href="omos.html"><li>Om Os</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </navigation>
+    <body>
+
+    <!--indhold til sætprodukter-->
+    <!--kassem bruges til at style med fleksboks, sådan at hele indholdet bliver resposive-->
+    <section class="set-content-wrapper">
+      <!--hele wrapperen til indhold-->
+      <div class="intro-video">
+        <video
+          id="start"
+          src="film/intro.mp4"
+          autoplay
+          type="video/mp4"
+        ></video>
+      </div>
+      <div class="sets-indhold">
+
+        <!--wrapperen til både billed ikoner og tekts-->
+        <div class="set-1">
+          <!--kassen til billede-->
+          <img src="images/reversible.png" alt="reversible sæt" />
+        </div>
+        <div class="set-2">
+          <!--kasse til ikoner, billede og tekst-->
+          <div class="set-info-tekst">
+            <h1>Sæts</h1>
+            <p>
+              Smukke træningssæts fremstillet i en helt fantastisk kvalitet og med vidunderlig pasform. Buttlift effekten er med til, at fremhæve dine former og den høje talje med kompression holder leggingsen på plads under hele din træning. 
+Som en ekstra funktion, er de fleste af vores sæts reversables, hvilket betyder at du får to designs i et sæt!
+            </p>
+          </div>
+          <div class="set-info-ikon">
+            <!--kasse til alle ikoner og tekst-->
+            <div class="set-ikon-tekst-1">
+              <img src="/images/icons - leggings-talje.png" alt="ikon tajle" />
+              <div class="ikon-tekst">
+                <h3>Kompression</h3>
+                <p>
+                  Høj kompression, som føles ligesom et ekstra lag hud helt tæt
+                  på din egen.
+                </p>
+              </div>
+            </div>
+            <div class="set-ikon-tekst-1">
+              <!--kasse 1 til første 2 ikoner og tekst-->
+              <img
+                src="/images/icons - leggings-buttlift.png"
+                alt="ikon buttlift"
+              />
+              <div class="ikon-tekst">
+                <h3>Buttlift</h3>
+                <p>Buttlift effekt, som giver god støtte.</p>
+              </div>
+            </div>
+            <div class="set-ikon-tekst-2">
+              <img
+                src="/images/icons - leggings-vandtæt.png"
+                alt="ikon vandtæt"
+              />
+              <div class="ikon-tekst">
+                <h3>Vandtæt</h3>
+                <p>
+                  Stor absorberings evne og spredning, som giver hurtigere
+                  tørring og bedre åndbarhed
+                </p>
+              </div>
+            </div>
+            <div class="set-ikon-tekst-2">
+              <!--kasse 2 til sidste 2 ikoner og tekst-->
+              <img
+                src="/images/icons - leggings-åndbar.png"
+                alt="ikon åndbar"
+              />
+              <div id="slide" class="ikon-tekst">
+                <h3>Termisk komfort</h3>
+                <p>
+                  Høj termisk komfort, som giver hurtig overførelse af fugt fra
+                  kroppen til miljøet igennem materialet.
+                </p>
+                <a href="https://leggingseksperten.dk/cart"  id="setsshop">Shop her</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+            <div class="footer-left">
+                <a title="linkhjemsidenleggingsekseksperten" href="index.html"><img src="images/leggingslogo.png" alt="Leggings-ekspert"></a>
+    
+              <p class="footer-links">
+        
+              </p>
+    
+              <p class="footer-company-name">© leggingseksperten.dk 2019.</p>
+            </div>
+    
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p id="kontakt"><span> Kontakt</span></p>
+                  </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Harlev Aarhus 8000 Aarhus C</span></p>
+              </div>
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+45 27782183</p>
+              </div>
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>
+                  <a title="kontaktemaillink" href="mailto:kontakt@leggingseksperten.dk"
+                    >kontakt@legginseksperten.dk</a
+                  >
+                </p>
+              </div>
+            </div>
+    
+            </div>
+    
+            <div class="footer-right">
+              <p class="footer-company-about">
+                <span class="fa fa-map-marker" >Samarbejdspartnere</span>
+                <a title="Linktilbeloud" href="http://beloud.dk/"> Be Loud </a>
+              </p>
+    
+              <div class="footer-icons">
+                  <p class="footer-company-about">
+                      <span>Følg os</span>
+                    </p>
+          
+                
+                <a title="Linktilfacebookleggingseksperten" class="facebook" href="https://www.facebook.com/leggings.eksperten">
+                  <img src="/images/icons-leggings-FB-white.png" alt="logofacbook" width="50" height="50"/>
+                </a>
+                
+                <a title="Linktilinstragramleggingseksperten" class="intagram" href="https://www.instagram.com/leggingseksperten/?hl=da" class=" fa-instagram">
+                    <img src="/images/icons-leggings-insta-white.png" alt="logoinstagram" width="50" height="50" />
+                </a>
+              </div>
+            </div>
+          </footer>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

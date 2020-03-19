@@ -1,0 +1,271 @@
+/*----------------body style anvendt kun til at kassernes størrelse vil passe til hele bodyen-------------------------*/
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+/*----------------hele style for hver kasser med flex-box style-------------------------*/
+.set-content-wrapper {
+  width: 100%;
+}
+
+.intro-video {
+  margin-top: 12%;
+  width: 100%;
+  text-align: center;
+}
+.intro-video video {
+  width: 82%;
+}
+/*-----tekster*/
+
+h1,
+h3 {
+  font-family: "Noto Serif JP", serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+/*-----------------et eksempel på hvordan flex-box er brugt til at placere kasserne i en række og er blevet centreret------------------------*/
+
+
+.sets-indhold {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.set-1 {
+  width: 40%;
+  margin-top: 2%;
+}
+.set-1 img {
+  width: 100%;
+}
+
+.set-2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.set-info-tekst {
+  width: 100%;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+.set-info-tekst p {
+  margin: 0;
+}
+
+.set-info-ikon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.set-ikon-tekst-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-top: 5%;
+  justify-content: center;
+}
+.set-ikon-tekst-1 img {
+  width: 100px;
+  height: 20%;
+}
+
+.set-ikon-tekst-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  justify-content: center;
+}
+.set-ikon-tekst-2 img {
+  width: 100px;
+  height: 20%;
+}
+
+.ikon-tekst {
+  width: 70%;
+  text-align: center;
+  padding-left: 5%;
+}
+
+.ikon-tekst h2 {
+  width: 100%;
+  margin-top: 0;
+}
+.ikon-tekst p {
+  width: 100%;
+  margin: 0;
+  line-height: 40px;
+}
+
+.ikon-tekst h3{
+  margin-top: 0%;
+}
+
+/*--------media queries for screen---------*/
+/*--------styrer hvordan styles for indhold til at være i de forskellige skærm størrlser--------*/
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  #start{
+    margin-top: 15%;
+    transform: translate(0);
+    height: 200px;
+    margin-left: -5%;
+  }
+
+  #setsshop{
+    margin-top: 6%;
+    transform: translate(33vh, 55vh);
+  }
+  
+  .intro-video {
+    width: 100%;
+  }
+
+  .intro-video video {
+    width: 100%;
+  }
+
+  .sets-indhold {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .set-info-tekst {
+    padding-right: 5%;
+    margin-top: 0;
+    font-size: 100%;
+  }
+
+  .set-info-tekst p {
+    margin-top: 0;
+  }
+
+  .set-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .set-1 img {
+    width: 60%;
+  }
+
+  .set-2 {
+    width: 100%;
+  }
+
+  .set-info-ikon {
+    width: 100%;
+  }
+
+  .set-ikon-tekst-1,
+  .set-ikon-tekst-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ikon-tekst {
+    width: 95%;
+    padding: 0%;
+    margin-top: 3%;
+  }
+
+  .set-ikon-tekst-1 img,
+  .set-ikon-tekst-2 img {
+    width: 100px;
+  }
+  .ikon-tekst p,
+  h3 {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1300px) {
+
+  #start{
+    margin-top: 20%;
+    
+  }
+  .intro-video {
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .intro-video video {
+    width: 100%;
+  }
+
+  .sets-indhold {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .set-info-tekst {
+    padding-right: 5%;
+    margin-top: 0;
+    font-size: 150%;
+  }
+
+  .set-info-tekst p {
+    margin-top: 0;
+  }
+
+  .set-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .set-1 img {
+    width: 60%;
+  }
+
+  .set-2 {
+    width: 100%;
+  }
+
+  .set-info-ikon {
+    width: 100%;
+  }
+
+  .set-ikon-tekst-1,
+  .set-ikon-tekst-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .ikon-tekst {
+    width: 100%;
+    padding: 0%;
+  }
+
+  .set-ikon-tekst-1 img,
+  .set-ikon-tekst-2 img {
+    width: 100px;
+  }
+
+  .ikon-tekst p,
+  h3 {
+    font-size: 150%;
+  }
+
+  #setsshop{
+    transform: translate(100px, 200px);
+  }
+}

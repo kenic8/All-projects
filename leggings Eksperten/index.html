@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="da">
+  <!--Language set to English. Change to da for Danish if needed-->
+
+  <head>
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta charset="UTF-8" />
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Se på produkter fra legginseksperten, deres teknikker og instagramfeed. bliv informere og få let adang til webshoppen."
+    />
+
+    <title>
+      Leggings Ekspert- forside, se produkter, Instragram opslag og Kontakt
+      informationer
+    </title>
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <meta
+      name="keyword"
+      content="leggins shop events Instragram socialemedier produkter sæts heldragter leggings"
+    />
+
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="bodyshade"></div>
+    <!--NAVIGATION BAR-->
+
+    <navigation class="navigation">
+      <div class="logo">
+        <a title="linkhjemsidenleggingsekseksperten" href="#"
+          ><img src="images/leggingslogo.png" alt="Leggings-ekspert"
+        /></a>
+      </div>
+
+      <div class="nav-illus">
+        <div class="illustration">
+          <div class="some-pics">
+            <a
+              title="linkfacebookleggingseksperten"
+              href="https://www.facebook.com/leggings.eksperten"
+            >
+              <img src="images/icons-leggings-FB.png" alt="facebook-page" />
+            </a>
+          </div>
+
+          <div class="some-pics">
+            <a
+              title="linkinstagramlegginsgeksperten"
+              href="https://www.instagram.com/leggingseksperten/?hl=da"
+            >
+              <img src="images/icons-leggings-insta.png" alt="instagram-page" />
+            </a>
+          </div>
+
+          <div class="some-pics1">
+            <a
+              title="linksshopleggingseksperten"
+              href="https://leggingseksperten.dk/cart"
+            >
+              <img
+                src="images/icons-leggings-indkøbskurv.png"
+                alt="shop-kurv-indkøb"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar">
+          <a
+            title="linkshopleggingseksperten"
+            href="https://leggingseksperten.dk/cart"
+            >Shop</a
+          >
+          <a title="linkprodukterleggingseksperten" href="index.html#jumpto"
+            >Produkter</a
+          >
+          <a title="linkeventsleggingseksperten" href="Event.html">Events</a>
+          <a title="linkomosleggingseksperten" href="omos.html">Om os</a>
+        </div>
+
+        <div class="burger-wrapper">
+          <div id="nav-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="menu-burger">
+            <ul>
+              <a href="https://leggingseksperten.dk/cart"><li>Shop</li></a>
+              <a href="index.html#jumpto"><li>Produkter</li></a>
+              <a href="Event.html"><li>Events</li></a>
+              <a href="omos.html"><li>Om Os</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </navigation>
+
+    <a href="https://leggingseksperten.dk/cart" class="buttontop">Shop her</a>
+
+    <div class="textwarpper">
+      <h2 class="toptext1">Leggings Eksperten</h2>
+      <h1 class="toptext2">
+        Velkommen til energi, <br />
+        kvalitet og farver.
+      </h1>
+    </div>
+
+    <div id="leftside"></div>
+    <div id="jumpto"></div>
+    <div id="rightside"></div>
+
+    <!--NYHEDSBREV-->
+    <a class="newsletter" href="#">
+      <img src="images/nyhed.png" alt="nyhedsbrev ikon" />
+    </a>
+    <div class="popup-brev">
+      <img id="kryds" src="images/kryds.png" alt="kryds til lukning" />
+      <img src="images/nyhedbrev_boks.png" alt="nyhedsbrev boks" />
+      <form action="action_page.php">
+        <input type="text" placeholder="Email address" name="mail" required />
+      </form>
+    </div>
+
+    <!----------------------------------------------------------------------->
+
+    <section class="produkter ">
+      <div id="produkter" class="containerprodukt">
+        <div class="produkt">
+          <a title="Linktillegginslegginseksperten" href="legginsprodukt.html">
+            <img
+              src="/images/ben.png"
+              alt="pruduktfremvisningafleggins"
+              class="produktcard_image fade"
+            />
+          </a>
+          <div class="produkt_text">
+            <h2 class="title">Leggings</h2>
+            <div class="summary">
+              Læs om vores lækre materialer og teknikker.
+            </div>
+            <div>
+              <a
+                title="linkleggings"
+                href="legginsprodukt.html"
+                class="buttonprodukt"
+                >Læs mere</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="produkt">
+          <a title="Linktilsætslegginseksperten" href="sets.html">
+            <img
+              src="/images/sæt.png"
+              alt="pruduktfremvisningafsæts"
+              class="produktcard_image fade"
+            />
+          </a>
+          <div class="produkt_text">
+            <h2 class="title">Sæts</h2>
+            <div class="summary">
+              Vi har både matchende sæts og reversables.
+            </div>
+            <div>
+              <a
+                title="linksætsleggingseksperten"
+                href="sets.html"
+                class="buttonprodukt"
+                >Læs mere</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="produkt">
+          <a title="Linktilheldragterlegginseksperten" href="heldragter.html">
+            <img
+              src="/images/heldragt.png"
+              alt="pruduktfremvisningheldragter"
+              class="produktcard_image fade"
+            />
+          </a>
+          <div class="produkt_text">
+            <h2 class="title">Heldragter</h2>
+            <div class="summary">
+              Heldragter som sørger for at tøjet altid sidder som det skal.
+            </div>
+            <div>
+              <a
+                title="linkdragterleggingseksperten"
+                href="heldragter.html"
+                class="buttonprodukt"
+                >Læs mere</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="instatext">
+      Instagram
+    </h1>
+
+    <div class="containerinsta">
+      <div class="insta">
+        <a
+          title="Linktilinstragramleggingseksperten"
+          href="https://www.instagram.com/leggingseksperten/?hl=da"
+        >
+        </a>
+        <img
+          src="/images/insta_temp_1.jpg"
+          alt="Contentfeedinstagram3"
+          class="insta fade"
+        />
+      </div>
+
+      <div class="insta">
+        <a
+          title="Linktilinstragramleggingseksperten"
+          href="https://www.instagram.com/leggingseksperten/?hl=da"
+        >
+        </a>
+        <img
+          id="slide"
+          src="/images/insta_temp_2.jpg"
+          alt="Contentfeedinstagram2"
+          class="insta fade"
+        />
+      </div>
+
+      <div class="insta">
+        <a
+          title="Linktilinstragramleggingseksperten"
+          href="https://www.instagram.com/leggingseksperten/?hl=da"
+        >
+        </a>
+        <img
+          src="/images/insta_temp_3.jpg"
+          alt="Contentfeedinstagram1"
+          class="insta fade"
+        />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <a title="linkhjemsidenleggingsekseksperten" href="index.html"
+          ><img src="images/leggingslogo.png" alt="Leggings-ekspert" />
+        </a>
+
+        <p class="footer-links"></p>
+
+        <p class="footer-company-name">© leggingseksperten.dk 2019.</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p id="kontakt"><span> Kontakt</span></p>
+        </div>
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Harlev Aarhus 8000 Aarhus C</span></p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+45 27782183</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a
+              title="kontaktemaillink"
+              href="mailto:kontakt@leggingseksperten.dk"
+              >kontakt@legginseksperten.dk</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span class="fa fa-map-marker">Samarbejdspartnere</span>
+          <a title="Linktilbeloud" href="http://beloud.dk/"> Be Loud </a>
+        </p>
+
+        <div class="footer-icons">
+          <p class="footer-company-about">
+            <span>Følg os</span>
+          </p>
+
+          <a
+            title="Linktilfacebookleggingseksperten"
+            class="facebook"
+            href="https://www.facebook.com/leggings.eksperten"
+          >
+            <img
+              src="/images/icons-leggings-FB-white.png"
+              alt="logofacbook"
+              width="50"
+              height="50"
+            />
+          </a>
+
+          <a
+            title="Linktilinstragramleggingseksperten"
+            href="https://www.instagram.com/leggingseksperten/?hl=da"
+            class=" fa-instagram"
+          >
+            <img
+              src="/images/icons-leggings-insta-white.png"
+              alt="logoinstagram"
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/javascript.js"></script>
+  </body>
+</html>
