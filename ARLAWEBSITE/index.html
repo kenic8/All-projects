@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Coffee Together</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Mød nye mennesker over en god kop kaffe" />
+  <meta name="author" content="Jesson, Carl, Kevin, Victoria" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"/>
+</head>
+
+<body onhashchange="pageChange()">
+
+  <button class="sidebarbtn">
+    <span></span>
+    </button>
+
+
+<div id="pagewrap">
+  <div id="bg"></div>
+  <!-- tabbar navigation -->
+  <div id="navwrap" class="active">
+  <div id="navwrapwrap">
+  <nav class="tabbar">
+    <div id="spacetopmen"></div>
+    <div id="breakline"></div>
+
+    <a class="opslag-svenn, opslag-icon" href="#home">
+      <div>
+      <div><p>Indtast data </p></div>
+      <div class="ikonwrap"><img class="data" src="images/iconer/data ikon.png"></div>
+    </div>
+    </a>
+
+    <div id="breakline"></div>
+    <a class="opslag-icon" href="#fremskridt">
+      <div>
+      <div><p>Fremskridt</p></div>
+      <div class="ikonwrap"><img class="data" src="images/iconer/fremskridt-icon.png"></div>
+    </div>
+    </a>
+
+    <div id="breakline"></div>
+    <a class="opslag-icon" href="#tiltag">
+      <div>
+      <div><p>Tiltag</p></div>
+      <div class="ikonwrap"><img class="data" src="images/iconer/Pære.png"></div>
+    </div>
+    </a>
+
+    <div id="breakline"></div>
+    <a class="mission, opslag-icon" href="#mission">
+      <div>
+      <div><p>Vores mission</p></div>
+      <div class="ikonwrap"><img class="data" src="images/iconer/mission-icon.png"></div>
+    </div>
+    </a>
+
+    <div id="breakline"></div>
+    <a class="opslag-icon" href="#sammenlign">
+      <div>
+      <div><p>Sammenlign</p></div>
+      <div class="ikonwrap"><img class="data" src="images/iconer/sammenlign.png"></div>
+    </div>
+    </a>
+    <div id="breakline"></div>
+    <a class="logud-icon" onclick="logoutbut()">
+      <div>
+      <div><p>Log Ud</p></div>
+    </div>
+    </a>
+  </nav>
+</div>
+</div>
+  <!-- pages -->
+  <div id="contentwrap">
+  <section id="content"></section>
+</div>
+</div>
+
+
+  <!-- create page -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.4.0/firebase-ui-auth__da.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <!-- scipts  -->
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
