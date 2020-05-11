@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: #100f0f;
-  background-image: url(/images/background1.png);
+  background-image: url(./images/background1.png);
   max-width: 100%;
   overflow-x: hidden;
   margin-right: 0.1%;
@@ -27,7 +27,7 @@ body {
 .hero-back {
   width: 100%;
   height: calc(100vh);
-  background: url(/images/kevin_bygning_1.png) no-repeat 50% 50%;
+  background: url(./images/kevin_bygning_1.png) no-repeat 50% 50%;
   background-size: cover;
   position: relative;
   z-index: 99;
@@ -235,7 +235,7 @@ video {
 
 /*-----------------------billedeboks---- Jesson--- tekst ---------------------------------------------*/
 #indhold {
-  background-image: url(/images/johannes_2.png);
+  background-image: url(./images/johannes_2.png);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
