@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Frue Heilskovs rengøring service på privat/erhvervs rengøring.
+    </title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="heilskovsrengøring Service rengøring, find priser og time antal på både privat og erhvervsrengøring. Bestil professionelt rengøringshjælp i slagelse området "
+    />
+    <meta name="author" content="Heilskovs Rengøring" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    >
+      //CDN SCRIPTS
+    </script>
+  </head>
+
+  <body class="app" onhashchange="pageChange()">
+    <form style="display: none;" id="formama">
+      <input type="text" id="Fname" name="Fname" value="hahah" />
+      <input type="text" id="Femail" name="Femail" />
+      <input type="text" id="Ftlf" name="Ftlf" />
+      <input type="text" id="Fextra" name="Fextra" />
+      <input type="text" id="Fbesked" name="Fbesked" />
+    </form>
+    <!-- tabbar navigation -->
+    <nav class="tabbar">
+      <a class="ikontekst" href="#home">Fru Heilskov</a>
+      <div id="phoneF" onmouseover="opennr()"></div>
+      <div id="phonenr"><p>29398366</p></div>
+      <div class="tabbarbutwrap">
+        <a href="#OmMig">Om mig</a>
+        <a href="#galleri">Historier</a>
+        <div class="kontaktNknap" onclick="jumptoform()">
+          <p>Kontakt</p>
+        </div>
+      </div>
+    </nav>
+    <div id="Mbar">
+      <a class="ikontekst2" href="#home" onclick="popfunction(1)"
+        >Fru Heilskov</a
+      >
+      <div id="burgermenu" class="burger" onclick="popfunction()">
+        <div id="bar1"></div>
+        <div id="bar2"></div>
+        <div id="bar3"></div>
+      </div>
+      <h1></h1>
+
+      <nav class="Mtabbar">
+        <div class="Mtabbarbutwrap">
+          <a href="#galleri" onclick="popfunction()">Historier</a>
+          <a href="#OmMig" onclick="popfunction()">Om mig</a>
+          <a id="mkontaktk">Kontakt</a>
+          <a id="msocial">
+            <svg
+              version="1.1"
+              id="Layer_2"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 200 200"
+              style="enable-background: new 0 0 200 200;"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  class="st0"
+                  d="M100.4,7.8c51-0.5,93.5,42.1,92.7,94.2c-0.8,50.4-42.8,91.9-94.3,91.1c-50.5-0.8-91.9-42.9-91-94.3
+       C8.6,48.6,50.1,7.4,100.4,7.8z M112.1,135.5c0-11.1,0-22.3,0-33.4c0-1.4,0.3-1.9,1.8-1.8c5.7,0.1,11.5,0,17.2,0.1
+       c1.2,0,1.8-0.1,1.9-1.6c0.7-6.7,1.5-13.4,2.4-20.1c0.2-1.5-0.2-1.7-1.5-1.7c-6.6,0.1-13.3,0-19.9,0.1c-1.4,0-1.9-0.3-1.9-1.8
+       c0.1-3.7,0-7.4,0-11.1c0-8.4,2.1-10.5,10.6-10.6c3.8,0,7.6,0,11.3,0c0.8,0,1.5,0.1,1.5-1.2c0-7,0-14.1,0-21.1
+       c0-0.8-0.2-1.2-1.1-1.1c-9.2,0.2-18.5-0.5-27.7,0.5c-5.5,0.6-10.7,2.1-15.2,5.5C85,41,82.7,48,82,55.7c-0.6,6.4-0.3,12.9-0.3,19.3
+       c0,1.7-0.5,2-2.1,2c-4.2-0.1-8.5,0-12.7-0.1c-1.3,0-1.8,0.2-1.8,1.6c0.1,6.8,0.1,13.5,0,20.3c0,1.3,0.4,1.5,1.5,1.5
+       c4.3-0.1,8.6,0.1,12.9-0.1c1.7-0.1,2.1,0.4,2.1,2.1c-0.1,22,0,44-0.1,66c0,1.7,0.2,2.3,2.2,2.3c8.7-0.1,17.4-0.1,26.2,0
+       c1.8,0,2.1-0.6,2.1-2.2C112,157.6,112.1,146.5,112.1,135.5z"
+                />
+              </g>
+            </svg>
+          </a>
+          <a id="Mfoot">Tlf: +4529398366</a>
+          <a id="Mfoot">Email: frueHeilskov@hotmail.dk</a>
+          <a id="Mfoot">CVR: 3387992133</a>
+        </div>
+      </nav>
+    </div>
+    <div id="darkOlay" onclick="popfunction()"></div>
+
+    <section id="content"></section>
+    <!-- main js file -->
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
